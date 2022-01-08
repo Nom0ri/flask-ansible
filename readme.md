@@ -30,4 +30,4 @@ ansible-playbook setup.yaml -i hosts.ini
 Wynik:
 ![](result.png)
 Diagram:
-![](diagram.jpg)
+![](diagram.png)
