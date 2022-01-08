@@ -1,0 +1,11 @@
+[Unit]
+Description=My flaskplayground
+After=network-online.target
+[Service]
+Type=simple
+User=flaskplayground
+ExecStart=/opt/flaskplayground/.venv/bin/flask run --host 0.0.0.0 --port 8080
+WorkingDirectory=/opt/flaskplayground
+Restart=always
+[Install]
+WantedBy=multi-user.target
