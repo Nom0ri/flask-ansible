@@ -27,7 +27,8 @@ Komenda wywołania instalacji:
 ```
 ansible-playbook setup.yaml -i hosts.ini
 ```
-Wynik:
+### Wynik:
 ![](result.png)
-Diagram:
+
+### Diagram:
 ![](diagram.png)
